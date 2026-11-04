@@ -161,12 +161,12 @@ p {
   .container::after {
     font-size: 100px;
     rotate: 0deg;
-    top: calc(100vh - 130px);
+    top: calc(100dvh - 130px);
   }
   .container:has(input:checked)::after {
     font-size: 100px;
-    top: 400px;
-    transform-origin: center center;
+    top: 40dvh;
+    /* transform-origin: center center; */
     rotate: 90deg;
   }
   p {
