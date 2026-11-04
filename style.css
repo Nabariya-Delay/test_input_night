@@ -148,7 +148,7 @@ p {
   .menu.active ul {
     position: absolute;
     display: block;
-    bottom: 5dvh;
+    top: 50%;
     left: 40px;
     font-size: 30px;
   }
